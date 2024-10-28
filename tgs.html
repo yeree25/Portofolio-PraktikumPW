@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Selamat Datang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="#" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Prestasi">Achievement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">My Skill</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section id="home"></section>
+    <section class="jumbotron text-center">
+        <img src="gambar1.jpg" alt="Gambar Yeremia" width="200" class="rounded-circle">
+        <h1 class="display-4">Yeremia Nicolas Purba</h1>
+        <p class="lead">Mahasiswa USU | Indonesia</p>
+    </section>
+
+    <!-- About -->
+    <section id="About">
+        <div class="container" style="display: flex; align-items: center;">
+            <div><h2 style="text-align: center;">About</h2></div>
+            <div style="text-align: bottom;">
+            <h2>Me</h2>
+        </div>
+            <img src="gambar2.jpg" alt="About" width="200" style="margin-right: 20px;">
+            
+            <div class="col">
+                
+                <h4>Yeremia Nicolas Purba</h4>
+                <p>Merupakan seoarang mahasiswa Universitas Sumatra Utara Fakultas Ilmu Komputer dan
+                    Teknologi Informasi, dengan prodi Teknologi Informasi.Lahir di Medan , 25 Juni 2006. Memiliki
+                    seorang adik perempuan.Cita-cita ingin menjadi seorang Gubernur Sumatra Utara.Hobi bermain catur dan sangat
+                    menyukai tentang JKT48.Oshi saya adalah Flora Shafiqa.Memiliki kemampuan yang sangat berguna untuk masa sekarang dan masa
+                    yang akan datang.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+     
+    
+    
+    <!-- Prestasi -->
+    
+    <section id="Prestasi" style="background-color: #8d9bf9d2;">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Achievement</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-4" style="padding-left: 10%;">
+            <div class="row justify-content-center mb-4">
+                <div class="col-4">
+                    <div class="card mb-4" style="width: 80%; transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;">
+                        <img src="gambar3.jpg" class="card-img-top" alt="Sekolah Dasar" style="height: 300px; width: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <h2>Prestasi Akademik</h2>
+                            <p class="card-text">Mendapatkan medali perunggu pada olimpiade bidang matematika tingkat provinsi yang diadakan oleh Lembaga Sains Indoneisa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4" style="width: 80%; transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;">
+                        <img src="gambar4.jpg" class="card-img-top" alt="Sekolah Menengah Pertama" style="height: 300px; width: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <h2>Prestasi Non Akademik</h2>
+                            <p class="card-text">Mendapatkan juara 1 tingkat nasional pada tournament game "Free Fire" bersama tim saya yaitu Medan Olympus pada tahun 2021.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4" style="width: 80%; transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;">
+                        <img src="gambar6.jpg" class="card-img-top" alt="Sekolah Menengah Pertama" style="height: 300px; width: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <h2>Prestasi Non Akademik</h2>
+                            <p class="card-text">Mendapatkan juara 2 lomba menyanyi pada tahun 2016 yang diadakan Gereja Kristen Protestan Simalungun se-Resort Medan Barat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+    .card {
+        background-color: rgb(215, 218, 248); 
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px); /* Mengangkat kartu ke atas saat hover */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat hover */
+        background-color: #f0f8ff; /* Warna latar belakang saat hover */
+    }
+    </style>
+    
+    <!-- My skill -->
+    <section id="skill" style="background-color: #bbe8f2;">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>My Skill</h2>
+                </div>
+            </div>
+            <h4>Menghitung</h4>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%">0%</div>
+            </div>
+            <h4>Giat Belajar</h4>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%">0%</div>
+            </div>
+            <h4>Bersosialisasi</h4>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%">0%</div>
+            </div>
+            <h4>Ramah dan Baik Hati</h4>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%">0%</div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+    .progress {
+        height: 30px; /* Tinggi progress bar */
+        margin-bottom: 20px; /* Jarak antar progress bar */
+    }
+    
+    .progress-bar {
+        background-color: #4caf50; /* Warna progress bar */
+        height: 100%; /* Tinggi progress bar */
+        transition: width 1s ease-in-out; /* Transisi lebar */
+        color: white; /* Warna teks */
+        text-align: center; /* Teks di tengah */
+    }
+    </style>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const progressBars = document.querySelectorAll('.progress-bar');
+        
+        progressBars.forEach(bar => {
+            const value = bar.parentElement.getAttribute('aria-valuenow');
+            bar.style.width = value + '%';
+            bar.textContent = value + '%';
+        });
+    });
+    </script>
+        
+        <section id="Contact" style="background-color: #bcccf3;">
+            <div class="container">
+          <div class="row mt-4" id="contactForm">
+            <div class="col ">
+          <h5 class="col text-center mb-4">Contact Us</h5>
+              <form class="text-light text-semibold" id="form" action="https://formspree.io/f/xjkvgyng" method="POST">
+                <label for="nama">Name:</label>
+                <input type="text" id="nama" placeholder="Your Name">
+          
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Your Email">
+          
+                <label for="Massagge" name="message">Message:</label>
+                <textarea placeholder="Your Massagge" id="Massagge"></textarea>
+          
+          
+                <button type="submit" id="tombol" class="btn btn-primary btn-lg shadow">Contact</button>
+              </form>
+          </div>    
+        </section>
+
+        <footer style="background-color: #2c3e50; color: white; padding: 40px 0;">
+            
+                    <div class="col-md-4 mb-4">
+                        <h5>Follow Us</h5>
+                        <ul class="list-unstyled d-flex justify-content-center justify-content-md-start " style="flex-direction: column;">
+                            <li style="margin-right: 15px;"><a href="#" style="color: white; text-decoration: none;">Facebook:@Yerepacarflora</a></li>
+                            <li style="margin-right: 15px;"><a href="#" style="color: white; text-decoration: none;">Twitter:@vwxyerzz</a></li>
+                            <li><a href="#" style="color: white; text-decoration: none;">Instagram:@yeremiapurbaa_</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <hr style="border-top: 1px solid #ffffff;">
+                        <p>&copy; TUGAS PORTOFOLIO YEREMIA NICOLAS PURBA</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <style>
+        footer {
+            background-color: #2c3e50; /* Warna latar belakang footer */
+            color: white; /* Warna teks */
+        }
+        
+        footer h5 {
+            margin-bottom: 20px; /* Jarak bawah untuk judul */
+        }
+        
+        footer p, footer ul li {
+            margin-bottom: 10px; /* Jarak bawah untuk paragraf dan daftar */
+        }
+        
+        footer a:hover {
+            text-decoration: underline; /* Efek hover pada tautan */
+        }
+        </style>
+
+    
+
+   
+            
+</body>
+</html>
